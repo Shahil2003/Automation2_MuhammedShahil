@@ -9,7 +9,7 @@ public class Locator {
 	
 	public void selecturl() throws IOException {
 		FileReader fobj=new FileReader("C:\\Users\\muham\\Desktop\\STCLASS\\Assessment2\\Automation2_MuhammedShahil\\src\\test\\resources\\config.properties");
-		prop=new Properties();
+	    prop=new Properties();
 		prop.load(fobj);
 	}
 	
